@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Design tokens — change these and the whole page follows */
+@theme inline {
+  --color-ink: #1c1420; /* page background: deep aubergine */
+  --color-ink-soft: #2a1e2f; /* raised surfaces */
+  --color-veil: #f1ebee; /* main text */
+  --color-mist: #a99aa8; /* secondary text */
+  --color-rose: #d4a5a0; /* accent */
+  --color-wine: #7d2342; /* deep accent */
+
+  --font-display: var(--font-bodoni), serif;
+  --font-sans: var(--font-dmsans), system-ui, sans-serif;
+  --color-cream: #fbf5e9; /* hero headline */
+}
+
+html {
+  background: var(--color-ink);
+  color: var(--color-veil);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-rose);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
