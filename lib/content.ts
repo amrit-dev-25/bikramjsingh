@@ -14,7 +14,7 @@ const pic = (seed: string, w = 900, h = 1200) =>
 
 export const quote = {
   text: "Some Days Deserve To Be Lived Twice.",
-  author: "HARDEEP",
+  author: "SIMRANJIT SINGH",
 };
 
 // 15 images. Index 7 (the 8th) is the centre photo that starts full-size.
