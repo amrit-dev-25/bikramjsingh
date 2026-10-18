@@ -17,7 +17,7 @@ const sans = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Hardeep Bheora Photography — Wedding photography & films",
+  title: "Dream Glimpse — Wedding photography & films",
   description: "Wedding photography and films that keep the day the way it felt.",
 };
 
