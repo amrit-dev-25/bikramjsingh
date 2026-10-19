@@ -2,11 +2,11 @@
 // Swap `img` for files in /public (e.g. "/images/01.jpg") when you have real ones.
 
 export const studio = {
-  name: "Dream Glimpse",
-  short: "HBP",
+  name: "Mann Photography",
+  short: "MANN",
   headline: "Refined Wedding Editorials",
   intro:
-    "Dream Glimpse is a wedding photography and film studio based in India, Canada, US and UK. We shoot candid, unhurried stories for destination weddings worldwide.",
+    "Mann Photography is a wedding photography and film studio based in India. We shoot candid, unhurried stories for destination weddings worldwide.",
 };
 
 const pic = (seed: string, w = 900, h = 1200) =>
@@ -14,26 +14,26 @@ const pic = (seed: string, w = 900, h = 1200) =>
 
 export const quote = {
   text: "Some Days Deserve To Be Lived Twice.",
-  author: "SIMRANJIT SINGH",
+  author: "MANN",
 };
 
 // 15 images. Index 7 (the 8th) is the centre photo that starts full-size.
 const files = [
-  "1.jpg",
-  "2.jpg",
-  "3.jpg",
-  "4.jpg",
-  "5.jpg",
-  "6.jpg",
-  "7.jpg",
-  "8.jpg",
-  "9.jpg",
-  "10.jpg",
-  "11.jpg",
-  "12.jpg",
-  "13.jpg",
-  "14.jpg",
-  "15.jpg",
+  "1.heic",
+  "2.heic",
+  "3.heic",
+  "4.heic",
+  "5.heic",
+  "6.heic",
+  "7.heic",
+  "8.heic",
+  "9.heic",
+  "10.heic",
+  "11.heic",
+  "12.heic",
+  "13.heic",
+  "14.heic",
+  "15.heic",
 ];
 
 export const gridImages = files.map((f, i) => ({
@@ -49,7 +49,7 @@ export const films = [
     title: "Simran & Jagpreet – A Royal Celebration in Patiala",
     place: "Patiala",
     year: 2025,
-    img: "/films/1.jpg",
+    img: "/films/1.heic",
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ export const films = [
     title: "Simran & Jagpreet – A Royal Celebration in Patiala",
     place: "Patiala",
     year: 2025,
-    img: "/films/2.jpg",
+    img: "/films/2.heic",
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const films = [
     title: "Aman & Pardeep – A Dream in Punjab",
     place: "Punjab",
     year: 2024,
-    img: "/films/4.jpg",
+    img: "/films/4.heic",
   },
   {
     id: 5,
@@ -81,16 +81,8 @@ export const films = [
     title: "Aman & Pardeep – A Dream in Punjab",
     place: "Punjab",
     year: 2024,
-    img: "/films/5.jpg",
-  },
-  {
-    id: 6,
-    names: "Aman & Pardeep",
-    title: "Aman & Pardeep – A Dream in Punjab",
-    place: "Punjab",
-    year: 2024,
-    img: "/films/6.jpg",
+    img: "/films/5.heic",
   },
 ];
 
-export const contactImage = "contact.png";
+export const contactImage = "contact-mann.png";

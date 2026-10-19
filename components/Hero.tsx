@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative h-svh min-h-[560px] w-full overflow-hidden bg-ink-soft">
       {/* 1. Background image */}
       <Image
-        src="/h4.jpg"
+        src="/h-mann.png"
         alt=""
         fill
         priority
