@@ -30,12 +30,12 @@ export default function Navbar() {
           className="pointer-events-auto"
         >
           <Image
-            src="/logo-mann.png"
+            src="/logo-bjs.png"
             alt="Studio logo"
             width={220}
             height={120}
             priority
-            className="h-auto w-[76px] md:w-[100px]"
+            className="h-auto w-[76px] md:w-[110px]"
           />
         </a>
 

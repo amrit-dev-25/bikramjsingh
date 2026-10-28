@@ -17,7 +17,7 @@ const sans = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Mann Photography — Wedding photography & films",
+  title: "Bikram J Singh Photography — Wedding photography & films",
   description: "Wedding photography and films that keep the day the way it felt.",
 };
 
